@@ -1,23 +1,10 @@
 <?php
 
-require_once './core/mysql_conn.php';
-
-session_start();
-
-$error = null;
 $url = 'https://ru.wikipedia.org/';
-// $url = '';
 
 if (!empty($_POST['url']))
 {
-    // mysql connection
-    $conn = connect();
-    
-    $table = "users";
-    
     $url = $_POST['url'];
-    
-    MYSQLI_CLOSE($conn);
 }
 
 ?>
