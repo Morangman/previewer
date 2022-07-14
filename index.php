@@ -58,7 +58,7 @@ if (!empty($_POST['url']))
 
         .comp {
             z-index: 1;
-            background-image: url(./src/comp.png);
+            background-image: url(/previewer/src/comp.png);
             background-repeat: no-repeat;
             background-size: 566px 538px;
             width: 566px;
@@ -68,7 +68,7 @@ if (!empty($_POST['url']))
         .tablet {
             z-index: 2;
             left: 113px;
-            background-image: url(./src/tablet.png);
+            background-image: url(/previewer/src/tablet.png);
             background-repeat: no-repeat;
             background-size: 246px 400px;
             width: 246px;
@@ -79,7 +79,7 @@ if (!empty($_POST['url']))
             z-index: 3;
             left: 322px;
             bottom: -206px;
-            background-image: url(./src/iphone.png);
+            background-image: url(/previewer/src/iphone.png);
             background-repeat: no-repeat;
             background-size: 95px 196px;
             width: 95px;
@@ -90,7 +90,7 @@ if (!empty($_POST['url']))
             z-index: 4;
             right: 20;
             bottom: -222px;
-            background-image: url(./src/macbook.png);
+            background-image: url(/previewer/src/macbook.png);
             background-repeat: no-repeat;
             background-size: 477px 307px;
             width: 477px;
