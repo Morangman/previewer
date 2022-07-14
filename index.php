@@ -13,7 +13,13 @@ if (!empty($_POST['url']))
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Sreenshoot Builder</title>
+    <title>Previewer</title>
+
+    <meta property="og:title" content="Отображение сайта для портфолио">
+    <meta name="description" property="og:description" content="Посмотреть как отображается сайт на ПК, ноутбуке, планшете, телефоне. Сделать скрин для портфолио">
+    <meta property="og:url" content="https://my-previewer.sinepolsky.website/">
+	<meta property="og:site_name" content="MyPreviewer">
+    <meta property="og:type" content="website" />
 
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
