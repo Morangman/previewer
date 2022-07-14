@@ -1,6 +1,5 @@
 <?php
 
-require './vendor/autoload.php';
 require_once './core/mysql_conn.php';
 
 session_start();
