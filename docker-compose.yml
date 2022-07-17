@@ -3,7 +3,7 @@ services:
     # PHP service
     app:
         build: .
-        container_name: screenbuilder_app
+        container_name: portfolio_app
         working_dir: /var/www/
         volumes:
             - ./:/var/www
@@ -14,7 +14,7 @@ services:
     mysql:
         platform: linux/x86_64
         image: mysql:5.7
-        container_name: screenbuilder_mysql
+        container_name: portfolio_mysql
         restart: unless-stopped
         tty: true
         ports:
@@ -31,7 +31,7 @@ services:
         image: phpmyadmin/phpmyadmin
         depends_on:
             - mysql
-        container_name: screenbuilder_phpmyadmin
+        container_name: portfolio_phpmyadmin
         restart: unless-stopped
         ports:
             - 8080:80
@@ -50,7 +50,7 @@ services:
     # Nginx service
     nginx:
         image: nginx:alpine
-        container_name: screenbuilder_nginx
+        container_name: portfolio_nginx
         ports:
             - "80:80"
             - "443:443"
